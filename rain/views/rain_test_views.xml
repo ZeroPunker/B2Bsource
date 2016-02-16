@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record model="ir.ui.view" id="rains_test_lxr_form">
+            <field name="name">rain_test_test_form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+			<field name="arch" type="xml">
+				<field name="title" position="after" >
+                    <field name="test" string=""/>
+                    <field name="username"/>
+				</field>
+            </field>
+        </record>
+    </data>
+</openerp>		
